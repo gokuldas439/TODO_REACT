@@ -16,7 +16,6 @@
     margin: 6px;
   }
 
-<<<<<<< HEAD
   @media (min-width: 1400px){
 .container, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
     max-width: 542px !important;
@@ -42,6 +41,3 @@
 .container, .container-sm {
     max-width: 417px !important;
 }}
-=======
-
->>>>>>> 1729c7d0377fb2b118471e3249c00185b3c5d824

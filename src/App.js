@@ -35,7 +35,7 @@ function FormTodo({ addTodo }) {
       <Form.Label><b>Add Todo</b></Form.Label>
       <Form.Control type="text" className="input" value={value} onChange={e => setValue(e.target.value)} placeholder="Add new todo" />
     </Form.Group>
-    <Button variant="primary mb-3 mt-3" type="submit">
+    <Button variant="dark mb-3 mt-3" type="submit">
       Submit
     </Button>
   </Form>

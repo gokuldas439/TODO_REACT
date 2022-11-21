@@ -1,7 +1,7 @@
 .app {
     padding: 30px;
-    background-color: floralwhite;
-  }
+    background-color: rgb(125 191 159) !important;
+    }
   
   .todo {
     align-items: center;
@@ -10,8 +10,34 @@
     justify-content: space-between;
   }
   body{
-    background-color: floralwhite !important;
+    background-color: rgb(125 191 159) !important;
   }
   .card{
     margin: 6px;
   }
+
+  @media (min-width: 1400px){
+.container, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
+    max-width: 542px !important;
+}
+}
+
+@media (min-width: 1200px){
+.container, .container-lg, .container-md, .container-sm, .container-xl {
+    max-width: 514px !important;
+}}
+
+@media (min-width: 992px){
+.container, .container-lg, .container-md, .container-sm {
+    max-width: 438px !important;
+}}
+
+@media (min-width: 768px){
+.container, .container-md, .container-sm {
+    max-width: 416px !important;
+}}
+
+@media (min-width: 576px){
+.container, .container-sm {
+    max-width: 417px !important;
+}}
